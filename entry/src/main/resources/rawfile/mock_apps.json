@@ -1,0 +1,52 @@
+{
+  "apps": [
+    {
+      "bundleName": "com.frameextractor",
+      "appLabel": "Frame Extractor",
+      "versionName": "1.1",
+      "summary": "Extract high-resolution frames from any video with millisecond precision.",
+      "updateAvailable": false,
+      "iconHue": "#4CAF50"
+    },
+    {
+      "bundleName": "org.tasks",
+      "appLabel": "Tasks.org: Open-source To-Do Lists & Reminders",
+      "versionName": "15.5",
+      "summary": "Private, ad-free task lists! Optional sync with Google Tasks, CalDAV or EteSync!",
+      "updateAvailable": true,
+      "iconHue": "#FF9800"
+    },
+    {
+      "bundleName": "com.machiav3lli.fdroid",
+      "appLabel": "Neo Store",
+      "versionName": "1.2.6",
+      "summary": "A modern feature-rich F-Droid client.",
+      "updateAvailable": false,
+      "iconHue": "#1976D2"
+    },
+    {
+      "bundleName": "net.gsantner.markor",
+      "appLabel": "Markor",
+      "versionName": "2.16.1",
+      "summary": "Text editor - Notes & ToDo. Lightweight. Markdown and todo.txt support.",
+      "updateAvailable": true,
+      "iconHue": "#9C27B0"
+    },
+    {
+      "bundleName": "io.github.quillpad",
+      "appLabel": "Quillpad",
+      "versionName": "1.5.12",
+      "summary": "Markdown notes, task lists, Nextcloud sync and more. A fork of the Quillnote app",
+      "updateAvailable": false,
+      "iconHue": "#E91E63"
+    },
+    {
+      "bundleName": "me.ash.reader",
+      "appLabel": "Read You",
+      "versionName": "0.16.1",
+      "summary": "Android RSS reader, inspired by Reeder.",
+      "updateAvailable": false,
+      "iconHue": "#3F51B5"
+    }
+  ]
+}

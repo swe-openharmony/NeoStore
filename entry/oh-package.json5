@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "NeoStore F-Droid client for HarmonyOS",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {}
+}
