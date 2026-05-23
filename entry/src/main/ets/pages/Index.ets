@@ -1,19 +1,4 @@
-// ====================================================================
-// Page: Index (NeoStore L0 Home — Latest tab)
-// Android baseline: D:/OH-Appforge/_doc_screenshots_v2/NeoStore/L0_home.png
-// Layout contract:
-//   - Top bar: "Latest" + 🔍 / ↻ / ⚙ icons
-//   - Pink banner card (alert): "Android's openness and F-Droid are
-//       threatened by Google. We need your help: https://keepandroidopen.org/"
-//       with dismiss ✕
-//   - Large rounded card containing two sections:
-//       * "New apps" header (empty body)
-//       * "Recently updated" header with right-side filled pill
-//         "▽ Sort and filter"
-//   - Bottom nav 3 tabs: ⚠ Latest (active) | 🧭 Explore | 🏠 Installed
-// Navigation:
-//   - "Installed" bottom tab → InstalledAppsPage
-// ====================================================================
+// Page: Index
 
 import { router } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';

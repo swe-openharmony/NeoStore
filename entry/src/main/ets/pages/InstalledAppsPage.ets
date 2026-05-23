@@ -1,16 +1,4 @@
-// ====================================================================
 // Page: InstalledAppsPage
-// App: NeoStore
-// Android baseline:
-//   - D:/OH-Appforge/_doc_screenshots_v2/NeoStore/L1_2_installed_populated.png
-//   - D:/OH-Appforge/_doc_screenshots_v2/NeoStore/L1_2_installed_populated.xml
-// Layout contract:
-//   - Top bar: "Installed" title + Search + Sync + Settings icons
-//   - Tab row: Installed (selected, filled) | Downloads
-//   - Section header "Installed" + "Sort and filter" trailing affordance
-//   - App rows: icon tile + name + version (right) + summary
-//   - Bottom nav: Latest | Explore | Installed (selected)
-// ====================================================================
 
 import { router } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';
