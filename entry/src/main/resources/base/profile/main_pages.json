@@ -1,6 +1,7 @@
 {
     "src":  [
                 "pages/Index",
-                "pages/InstalledAppsPage"
+                "pages/InstalledAppsPage",
+                "pages/AppDetailPage"
             ]
 }
