@@ -251,25 +251,20 @@ struct InstalledAppsPage {
 
   build() {
     Column() {
-      this.TopBar();
+      Text('Neo Store').fontSize(20).fontWeight(FontWeight.Medium).width('100%').padding(16);
       this.SegmentRow();
-      this.SectionHeader();
-
-      List() {
-        ForEach(this.apps, (app: InstalledApp) => {
-          ListItem() {
-            this.AppRow(app);
-          }
-        }, (app: InstalledApp) => app.bundleName);
+      Row() {
+        Text(this.topTab === 'installed' ? 'Installed applications' : 'Downloads')
+          .fontSize(18).fontWeight(FontWeight.Bold).layoutWeight(1);
+        if (this.topTab === 'installed') {
+          Text('Sort and filter').fontSize(14).padding(8).onClick(() => this.onSortFilter());
+        }
+      }.width('100%').padding(16);
+      if (this.topTab === 'installed') {
+        Text('No installed catalog data').fontSize(16).fontColor('#666666').layoutWeight(1);
+      } else {
+        Text('Downloads unavailable').fontSize(16).fontColor('#666666').layoutWeight(1);
       }
-      .layoutWeight(1)
-      .width('100%')
-      .scrollBar(BarState.Auto);
-
-      this.BottomNav();
-    }
-    .width('100%')
-    .height('100%')
-    .backgroundColor('#FFFFFF');
+    }.width('100%').height('100%').backgroundColor('#FFFFFF');
   }
 }
