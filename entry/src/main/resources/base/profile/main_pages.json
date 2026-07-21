@@ -1,6 +1,7 @@
 {
-    "src":  [
-                "pages/Index",
-                "pages/InstalledAppsPage"
-            ]
+  "src": [
+    "pages/Index",
+    "pages/InstalledAppsPage",
+    "pages/AppDetailPage"
+  ]
 }
